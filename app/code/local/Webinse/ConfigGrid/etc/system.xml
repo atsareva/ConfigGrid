@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : Webinse_ConfigGrid.xml
+    Created on : February 27, 2014, 6:06 PM
+    Author     : Webinse Team <info@webinse.com>
+-->
+
+<config>
+    <tabs>
+        <webinse translate="label">
+            <label>Webinse</label>
+            <sort_order>201</sort_order>
+        </webinse>
+    </tabs>
+    <sections>
+        <webinse_configgrid translate="label">
+            <label>Grid Item</label>
+            <tab>webinse</tab>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <grid translate="label">
+                    <label>Grid Item Example</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <item translate="label comment">
+                            <label>Item</label>
+                            <frontend_model>wb_configgrid/adminhtml_form_field_gridItem</frontend_model>
+                            <backend_model>wb_configgrid/system_config_backend_gridItem</backend_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </item>
+                    </fields>
+                </grid>
+            </groups>
+        </webinse_configgrid>
+    </sections>
+</config>

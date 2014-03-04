@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : Webinse_ConfigGrid.xml
+    Created on : February 27, 2014, 6:06 PM
+    Author     : Webinse Team <info@webinse.com>
+-->
+
+
+<config>
+    <modules>
+        <Webinse_ConfigGrid>
+            <version>0.1.0</version>
+        </Webinse_ConfigGrid>
+    </modules>
+    <global>
+        <helpers>
+            <wb_configgrid>
+                <class>Webinse_ConfigGrid_Helper</class>
+            </wb_configgrid>
+        </helpers>
+        <models>
+            <wb_configgrid>
+                <class>Webinse_ConfigGrid_Model</class>
+            </wb_configgrid>
+        </models>
+        <blocks>
+            <wb_configgrid>
+                <class>Webinse_ConfigGrid_Block</class>
+            </wb_configgrid>
+        </blocks>
+    </global>
+    <adminhtml>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <webinse_configgrid>
+                                            <title>Grid Field</title>
+                                        </webinse_configgrid>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>
+

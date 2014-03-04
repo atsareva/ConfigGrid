@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : Webinse_ConfigGrid.xml
+    Created on : February 27, 2014, 6:06 PM
+    Author     : Webinse Team <info@webinse.com>
+-->
+
+<config>
+    <modules>
+        <Webinse_ConfigGrid>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Webinse_ConfigGrid>
+    </modules>
+</config>
