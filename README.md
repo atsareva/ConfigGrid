@@ -1,6 +1,7 @@
 ConfigGrid
 ==========
 
-Example Grid for System Configuration of Magento.
+Data Grid for System Configuration in Magento.
 
-Extension include examples for fields like select, input and password. You can see grid example in the System->Configuration->Webinse->Grid Item.
+Extension includes a few examples to store data using the following types of field: select, input and password. 
+You just go to System->Configuration->Webinse->Grid Item tab to see the example.
